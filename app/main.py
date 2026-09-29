@@ -96,6 +96,33 @@ def logout(req:Request):
 @app.get('/api/me')
 def me(req:Request): return public_user(user(req))
 
+@app.put('/api/me')
+async def update_me(req:Request):
+    u=user(req)
+    data=await req.json()
+
+    name=str(data.get('name','')).strip()
+    email=str(data.get('email','')).strip().lower()
+
+    if not name or len(name)>60:
+        raise HTTPException(400,'Le nom est requis et doit contenir 60 caractères maximum.')
+
+    if not re.match(r'^[^\s@]+@[^\s@]+\.[^\s@]+$',email) or len(email)>200:
+        raise HTTPException(400,'Veuillez saisir une adresse email valide.')
+
+    try:
+        with db() as c:
+            c.execute(
+                'UPDATE users SET name=?, email=? WHERE id=?',
+                (name,email,u['id'])
+            )
+    except sqlite3.IntegrityError:
+        raise HTTPException(409,'Cet email est déjà utilisé.')
+
+    u['name']=name
+    u['email']=email
+    return public_user(u)
+
 def load(pid,u):
     with db() as c: row=c.execute('SELECT data FROM projects WHERE id=? AND user_id=?',(pid,u['id'])).fetchone()
     if not row: raise HTTPException(404,'Projet introuvable.')
