@@ -20,7 +20,7 @@ function shell(content){const u=state.user;$('#app').innerHTML=`<aside class="si
   <div style="position:relative">
     <button
       class="iconbtn"
-      onclick="const m=document.getElementById('auth-menu');m.style.display=m.style.display==='block'?'none':'block'"
+      onclick="document.getElementById('auth-menu').style.display='block'"
       title="Compte"
     >
       ${I('down')}
