@@ -17,35 +17,22 @@ function shell(content){const u=state.user;$('#app').innerHTML=`<aside class="si
     <div class="muted">${u?.email?'Compte personnel':u?'Session découverte':'Espace personnel'}</div>
   </div>
 
-  <div style="position:relative">
-    <button
-      class="iconbtn"
-      onclick="document.getElementById('auth-menu').style.display='block'; return false;"
-      title="Compte"
-    >
-      ${I('down')}
-    </button>
+  <div style="display:flex;gap:6px;align-items:center">
+  <button
+    class="iconbtn"
+    onclick="authModal('login')"
+    title="Se connecter"
+  >
+    Se connecter
+  </button>
 
-    <div id="auth-menu"
-      style="display:block !important;position:absolute;right:0;bottom:42px;min-width:170px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:6px;z-index:9999;box-shadow:0 8px 25px rgba(0,0,0,.15)">
-
-      <button
-        onclick="authModal('login');document.getElementById('auth-menu').style.display='none'"
-        style="display:block;width:100%;padding:10px;border:0;background:none;text-align:left;cursor:pointer"
-      >
-        Se connecter
-      </button>
-
-      <button
-        onclick="logout();document.getElementById('auth-menu').style.display='none'"
-        style="display:block;width:100%;padding:10px;border:0;background:none;text-align:left;cursor:pointer"
-      >
-        Se déconnecter
-      </button>
-
-    </div>
-  </div>
-</div>
+  <button
+    class="iconbtn"
+    onclick="logout()"
+    title="Se déconnecter"
+  >
+    Se déconnecter
+  </button>
 </div>
 </button></div></div></aside><main class="main"><header class="topbar"><div class="breadcrumb"><button class="mobile-menu iconbtn" aria-label="Ouvrir le menu" onclick="$('.sidebar').classList.toggle('open')">${I('menu')}</button><span>Espace de travail</span>${I('chevron')}<b>${{dashboard:'Mes livres',editor:'Éditeur',settings:'Paramètres IA',help:'Aide & ressources'}[state.view]}</b></div><div class="flex right"><span class="flex gap top-label">${I('shield')} Vos fichiers restent privés</span><span class="vline"></span><span class="pill purple">ÉDITION LOCALE</span></div></header><div class="content">${content}</div></main>`;if(state.view==='editor'&&state.p?.book)assistantWidget()}
 async function navigate(view){try{if(dirty)await flush();state.view=view;state.assistant=false;clearTimeout(jobTimer);if(view==='dashboard'){if(state.user)state.projects=await api('/projects');renderDashboard()}else if(view==='settings'){if(!await ensureUser())return;await renderSettings()}else if(view==='help')renderHelp()}catch(e){toast(e.message)}}
