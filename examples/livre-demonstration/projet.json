@@ -1,0 +1,444 @@
+{
+  "title": "Entreprendre autrement",
+  "subtitle": "Un guide pour les entrepreneurs africains",
+  "author": "Aïcha Mensah",
+  "author_bio": "",
+  "summary": "À Cotonou, Amina part d’un besoin concret : aider les vendeuses de fruits à préserver leurs récoltes. De ses premières conversations au développement de casiers réfrigérés solaires, son parcours explore trois étapes : observer le terrain, construire avec les autres et grandir sans se perdre.\n\nCe court manuscrit fictif permet de tester la composition et l’illustration d’un livre dans AI BOOK STUDIO.",
+  "summary_method": "Texte de présentation rédigé pour le document de démonstration, pas généré par l’application.",
+  "chapters": [
+    {
+      "id": "a46365fc26c3",
+      "title": "Ouverture",
+      "blocks": [
+        {
+          "id": "393488ec7f43",
+          "text": "Entreprendre autrement",
+          "page": 1,
+          "size": 20.0,
+          "bold": true,
+          "bbox": [
+            51.02362060546875,
+            89.84405517578125,
+            326.9436340332031,
+            109.84405517578125
+          ],
+          "kind": "title"
+        },
+        {
+          "id": "e848a3dbe520",
+          "text": "Un guide pour les entrepreneurs africains\nAïcha Mensah",
+          "page": 1,
+          "size": 10.5,
+          "bold": false,
+          "bbox": [
+            51.02362060546875,
+            140.90823364257812,
+            275.5976257324219,
+            168.40823364257812
+          ],
+          "kind": "paragraph"
+        }
+      ]
+    },
+    {
+      "id": "3d63135df445",
+      "title": "Introduction",
+      "blocks": [
+        {
+          "id": "e24005f41147",
+          "text": "Introduction",
+          "page": 2,
+          "size": 20.0,
+          "bold": true,
+          "bbox": [
+            51.02362060546875,
+            89.84405517578125,
+            193.463623046875,
+            109.84405517578125
+          ],
+          "kind": "heading"
+        },
+        {
+          "id": "c7244197d54f",
+          "text": "À Cotonou, une nouvelle génération transforme les besoins\ndu quotidien en entreprises durables. Ce livre propose une\nméthode simple : observer, expérimenter puis grandir. Il\ns’adresse aux personnes qui souhaitent lancer une activité\nutile à leur communauté.",
+          "page": 2,
+          "size": 10.5,
+          "bold": false,
+          "bbox": [
+            51.02362060546875,
+            140.90823364257812,
+            366.7375793457031,
+            219.40823364257812
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "id": "4a6290b2aea2",
+          "text": "Entreprendre ne commence pas par un grand bureau. Cela\ncommence par une conversation et un problème concret à\nrésoudre.",
+          "page": 2,
+          "size": 10.5,
+          "bold": false,
+          "bbox": [
+            51.02362060546875,
+            242.90823364257812,
+            366.75860595703125,
+            287.4082336425781
+          ],
+          "kind": "paragraph"
+        }
+      ]
+    },
+    {
+      "id": "08c0d1c64e8f",
+      "title": "Chapitre 1 — Une idée ancrée dans le réel",
+      "blocks": [
+        {
+          "id": "97ee3489e0ba",
+          "text": "Chapitre 1 — Une idée\nancrée dans le réel",
+          "page": 3,
+          "size": 20.0,
+          "bold": true,
+          "bbox": [
+            51.02362060546875,
+            89.84405517578125,
+            302.0036315917969,
+            134.84405517578125
+          ],
+          "kind": "heading"
+        },
+        {
+          "id": "1c9b93557796",
+          "text": "Sur un marché de Cotonou, Amina observe les vendeuses\nde fruits. À midi, la chaleur abîme une partie de leur\nrécolte. Elle imagine des casiers réfrigérés alimentés par\ndes panneaux solaires, partagés par plusieurs\ncommerçantes.",
+          "page": 3,
+          "size": 10.5,
+          "bold": false,
+          "bbox": [
+            51.02362060546875,
+            165.90823364257812,
+            357.6236267089844,
+            244.40823364257812
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "id": "8397ea7e9648",
+          "text": "Avant de construire, elle interroge vingt vendeuses.\nCombien perdent-elles chaque semaine ? Quel prix\npourraient-elles payer ? Les réponses deviennent les\npremières lignes de son modèle économique.",
+          "page": 3,
+          "size": 10.5,
+          "bold": false,
+          "bbox": [
+            51.02362060546875,
+            267.9082336425781,
+            332.3081359863281,
+            329.4082336425781
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "id": "d7b019e824f9",
+          "text": "« Le meilleur point de départ est un besoin que l’on\ncomprend vraiment. »",
+          "page": 3,
+          "size": 10.5,
+          "bold": false,
+          "bbox": [
+            51.02362060546875,
+            352.9082336425781,
+            327.3415832519531,
+            380.4082336425781
+          ],
+          "kind": "quote"
+        },
+        {
+          "id": "1a243fa22025",
+          "text": "Pour valider votre idée, notez trois hypothèses et testez-les\npendant une semaine. Une observation honnête vaut mieux\nqu’un long plan construit sur des suppositions.",
+          "page": 3,
+          "size": 10.5,
+          "bold": false,
+          "bbox": [
+            51.02362060546875,
+            403.9082336425781,
+            368.28106689453125,
+            448.4082336425781
+          ],
+          "kind": "paragraph"
+        }
+      ]
+    },
+    {
+      "id": "f2610a98832f",
+      "title": "Chapitre 2 — Construire ensemble",
+      "blocks": [
+        {
+          "id": "479b3d65f064",
+          "text": "Chapitre 2 — Construire\nensemble",
+          "page": 4,
+          "size": 20.0,
+          "bold": true,
+          "bbox": [
+            51.02362060546875,
+            89.84405517578125,
+            323.5636291503906,
+            134.84405517578125
+          ],
+          "kind": "heading"
+        },
+        {
+          "id": "e20a2a1a0a4d",
+          "text": "Dans un petit atelier de quartier, Amina travaille avec un\ntechnicien solaire et une coopérative de commerçantes.\nEnsemble, ils assemblent un prototype de casier. Les\npremières utilisatrices donnent leur avis : la serrure doit\nêtre plus simple et les compartiments plus grands.",
+          "page": 4,
+          "size": 10.5,
+          "bold": false,
+          "bbox": [
+            51.02362060546875,
+            165.90823364257812,
+            356.3740539550781,
+            244.40823364257812
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "id": "da032e6965cf",
+          "text": "Un partenariat solide repose sur des engagements précis.\nQui entretient le matériel ? Qui collecte les paiements ?\nQui répond en cas de panne ? Écrire les réponses évite de\nnombreux conflits.",
+          "page": 4,
+          "size": 10.5,
+          "bold": false,
+          "bbox": [
+            51.02362060546875,
+            267.9082336425781,
+            361.05712890625,
+            329.4082336425781
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "id": "4f3bf7614bb5",
+          "text": "L’équipe tient un carnet partagé. Chaque semaine, elle\nmesure le nombre de clientes, le coût de l’énergie et les\nfruits préservés. Ces données guident les décisions plutôt\nque les intuitions.",
+          "page": 4,
+          "size": 10.5,
+          "bold": false,
+          "bbox": [
+            51.02362060546875,
+            352.9082336425781,
+            359.21966552734375,
+            414.4082336425781
+          ],
+          "kind": "paragraph"
+        }
+      ]
+    },
+    {
+      "id": "bac94bf695fa",
+      "title": "Chapitre 3 — Grandir sans se perdre",
+      "blocks": [
+        {
+          "id": "42b668b8f604",
+          "text": "Chapitre 3 — Grandir sans\nse perdre",
+          "page": 5,
+          "size": 20.0,
+          "bold": true,
+          "bbox": [
+            51.02362060546875,
+            89.84405517578125,
+            347.54364013671875,
+            134.84405517578125
+          ],
+          "kind": "heading"
+        },
+        {
+          "id": "04bc14168134",
+          "text": "Six mois plus tard, deux nouveaux marchés souhaitent\naccueillir les casiers. Amina choisit de former une\nresponsable locale sur chaque site. Elle privilégie la qualité\ndu service avant la vitesse de développement.",
+          "page": 5,
+          "size": 10.5,
+          "bold": false,
+          "bbox": [
+            51.02362060546875,
+            165.90823364257812,
+            368.53131103515625,
+            227.40823364257812
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "id": "a4a3f6b7afb6",
+          "text": "La croissance exige de protéger la trésorerie. Séparez les\nfinances personnelles de celles de l’activité. Gardez une\nréserve pour les réparations et suivez les encaissements\nréels.",
+          "page": 5,
+          "size": 10.5,
+          "bold": false,
+          "bbox": [
+            51.02362060546875,
+            250.90823364257812,
+            359.32464599609375,
+            312.4082336425781
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "id": "1ecc7eefa8ba",
+          "text": "La réussite ne se mesure pas seulement au chiffre\nd’affaires. Elle se voit aussi dans les pertes évitées, les\nemplois créés et la confiance des commerçantes.",
+          "page": 5,
+          "size": 10.5,
+          "bold": false,
+          "bbox": [
+            51.02362060546875,
+            335.9082336425781,
+            343.64813232421875,
+            380.4082336425781
+          ],
+          "kind": "paragraph"
+        }
+      ]
+    },
+    {
+      "id": "1cba310fb336",
+      "title": "Conclusion",
+      "blocks": [
+        {
+          "id": "ac2b65a5dc01",
+          "text": "Conclusion",
+          "page": 6,
+          "size": 20.0,
+          "bold": true,
+          "bbox": [
+            51.02362060546875,
+            89.84405517578125,
+            175.88363647460938,
+            109.84405517578125
+          ],
+          "kind": "heading"
+        },
+        {
+          "id": "0a67c5f372b6",
+          "text": "Une entreprise durable se construit pas à pas. Écoutez les\nbesoins, testez une solution modeste et apprenez avec vos\npremiers clients. Le contexte local n’est pas une contrainte\nà contourner : il est une source d’idées et de valeur.",
+          "page": 6,
+          "size": 10.5,
+          "bold": false,
+          "bbox": [
+            51.02362060546875,
+            140.90823364257812,
+            367.32562255859375,
+            202.40823364257812
+          ],
+          "kind": "paragraph"
+        },
+        {
+          "id": "2380d945acc9",
+          "text": "Votre prochain geste peut être simple : rencontrer une\npersonne concernée par le problème que vous voulez\nrésoudre et lui poser les bonnes questions.",
+          "page": 6,
+          "size": 10.5,
+          "bold": false,
+          "bbox": [
+            51.02362060546875,
+            225.90823364257812,
+            344.2361145019531,
+            270.4082336425781
+          ],
+          "kind": "paragraph"
+        }
+      ]
+    }
+  ],
+  "keywords": [
+    "simple",
+    "amina",
+    "commerçantes",
+    "semaine",
+    "entreprendre",
+    "cotonou",
+    "besoins"
+  ],
+  "audience": "À préciser par l’auteur",
+  "analysis_method": "Analyse locale heuristique — titres par typographie, langue estimée, texte non réécrit.",
+  "settings": {
+    "format": "A5",
+    "width": 148,
+    "height": 210,
+    "margin": 18,
+    "font": "StudioSerif",
+    "font_size": 10.5,
+    "accent": "#3d5747",
+    "layout": "Premium",
+    "image_style": "éditorial",
+    "paper": 0.1,
+    "bleed": 3
+  },
+  "suggestions": [
+    {
+      "id": "223199f4c2c8",
+      "chapter_id": "3d63135df445",
+      "block_id": "c7244197d54f",
+      "page": 2,
+      "section": "Introduction",
+      "passage": "À Cotonou, une nouvelle génération transforme les besoins\ndu quotidien en entreprises durables. Ce livre propose une\nméthode simple : observer, expérimenter puis grandir. Il\ns’adresse aux personnes qui souhaitent lancer une activité\nutile à leur communauté.",
+      "idea": "Illustrer les éléments concrets du passage de « Introduction ».",
+      "prompt": "Book illustration. Style: éditorial. Subject: Entreprendre autrement. Section: Introduction. Illustrate this exact passage: À Cotonou, une nouvelle génération transforme les besoins\ndu quotidien en entreprises durables. Ce livre propose une\nméthode simple : observer, expérimenter puis grandir. Il\ns’adresse aux personnes qui souhaitent lancer une activité\nutile à leur communauté.. Coherent muted palette, refined composition, no text or lettering. Do not invent recurring character identities.",
+      "style": "éditorial",
+      "asset": null,
+      "width_pct": 85,
+      "position": "after",
+      "origin": null
+    },
+    {
+      "id": "14d2de002501",
+      "chapter_id": "08c0d1c64e8f",
+      "block_id": "1c9b93557796",
+      "page": 3,
+      "section": "Chapitre 1 — Une idée ancrée dans le réel",
+      "passage": "Sur un marché de Cotonou, Amina observe les vendeuses\nde fruits. À midi, la chaleur abîme une partie de leur\nrécolte. Elle imagine des casiers réfrigérés alimentés par\ndes panneaux solaires, partagés par plusieurs\ncommerçantes.",
+      "idea": "Illustrer les éléments concrets du passage de « Chapitre 1 — Une idée ancrée dans le réel ».",
+      "prompt": "Book illustration. Style: éditorial. Subject: Entreprendre autrement. Section: Chapitre 1 — Une idée ancrée dans le réel. Illustrate this exact passage: Sur un marché de Cotonou, Amina observe les vendeuses\nde fruits. À midi, la chaleur abîme une partie de leur\nrécolte. Elle imagine des casiers réfrigérés alimentés par\ndes panneaux solaires, partagés par plusieurs\ncommerçantes.. Coherent muted palette, refined composition, no text or lettering. Do not invent recurring character identities.",
+      "style": "éditorial",
+      "asset": "eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee.png",
+      "width_pct": 85,
+      "position": "after",
+      "origin": "IA Arena · illustration pré-générée",
+      "caption": "Illustration générée avec Arena pour ce livre de démonstration."
+    },
+    {
+      "id": "76bd06284cd3",
+      "chapter_id": "f2610a98832f",
+      "block_id": "e20a2a1a0a4d",
+      "page": 4,
+      "section": "Chapitre 2 — Construire ensemble",
+      "passage": "Dans un petit atelier de quartier, Amina travaille avec un\ntechnicien solaire et une coopérative de commerçantes.\nEnsemble, ils assemblent un prototype de casier. Les\npremières utilisatrices donnent leur avis : la serrure doit\nêtre plus simple et les compartiments plus grands.",
+      "idea": "Illustrer les éléments concrets du passage de « Chapitre 2 — Construire ensemble ».",
+      "prompt": "Book illustration. Style: éditorial. Subject: Entreprendre autrement. Section: Chapitre 2 — Construire ensemble. Illustrate this exact passage: Dans un petit atelier de quartier, Amina travaille avec un\ntechnicien solaire et une coopérative de commerçantes.\nEnsemble, ils assemblent un prototype de casier. Les\npremières utilisatrices donnent leur avis : la serrure doit\nêtre plus simple et les compartiments plus grands.. Coherent muted palette, refined composition, no text or lettering. Do not invent recurring character identities.",
+      "style": "éditorial",
+      "asset": null,
+      "width_pct": 85,
+      "position": "after",
+      "origin": null
+    },
+    {
+      "id": "3fd445b82907",
+      "chapter_id": "bac94bf695fa",
+      "block_id": "04bc14168134",
+      "page": 5,
+      "section": "Chapitre 3 — Grandir sans se perdre",
+      "passage": "Six mois plus tard, deux nouveaux marchés souhaitent\naccueillir les casiers. Amina choisit de former une\nresponsable locale sur chaque site. Elle privilégie la qualité\ndu service avant la vitesse de développement.",
+      "idea": "Illustrer les éléments concrets du passage de « Chapitre 3 — Grandir sans se perdre ».",
+      "prompt": "Book illustration. Style: éditorial. Subject: Entreprendre autrement. Section: Chapitre 3 — Grandir sans se perdre. Illustrate this exact passage: Six mois plus tard, deux nouveaux marchés souhaitent\naccueillir les casiers. Amina choisit de former une\nresponsable locale sur chaque site. Elle privilégie la qualité\ndu service avant la vitesse de développement.. Coherent muted palette, refined composition, no text or lettering. Do not invent recurring character identities.",
+      "style": "éditorial",
+      "asset": null,
+      "width_pct": 85,
+      "position": "after",
+      "origin": null
+    },
+    {
+      "id": "dd9d0c7dc223",
+      "chapter_id": "1cba310fb336",
+      "block_id": "0a67c5f372b6",
+      "page": 6,
+      "section": "Conclusion",
+      "passage": "Une entreprise durable se construit pas à pas. Écoutez les\nbesoins, testez une solution modeste et apprenez avec vos\npremiers clients. Le contexte local n’est pas une contrainte\nà contourner : il est une source d’idées et de valeur.",
+      "idea": "Illustrer les éléments concrets du passage de « Conclusion ».",
+      "prompt": "Book illustration. Style: éditorial. Subject: Entreprendre autrement. Section: Conclusion. Illustrate this exact passage: Une entreprise durable se construit pas à pas. Écoutez les\nbesoins, testez une solution modeste et apprenez avec vos\npremiers clients. Le contexte local n’est pas une contrainte\nà contourner : il est une source d’idées et de valeur.. Coherent muted palette, refined composition, no text or lettering. Do not invent recurring character identities.",
+      "style": "éditorial",
+      "asset": null,
+      "width_pct": 85,
+      "position": "after",
+      "origin": null
+    }
+  ],
+  "cover_asset": null,
+  "language": "Français"
+}

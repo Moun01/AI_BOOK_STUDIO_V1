@@ -1,0 +1,57 @@
+{
+  "pages": 7,
+  "preview_pages": 9,
+  "spine_mm": 0.35,
+  "quality": [
+    {
+      "code": "bounds",
+      "status": "ok",
+      "text": "Aucun débordement de texte détecté dans le PDF rendu."
+    },
+    {
+      "code": "blank",
+      "status": "ok",
+      "text": "Aucune page intérieure vide détectée."
+    },
+    {
+      "code": "sparse",
+      "status": "warning",
+      "text": "Pages peu remplies à vérifier : [1]. Les ouvertures de chapitres peuvent être intentionnelles."
+    },
+    {
+      "code": "resolution",
+      "status": "ok",
+      "text": "Images intégrées : aucune résolution sous 300 ppp détectée (ou aucune image)."
+    },
+    {
+      "code": "pagination",
+      "status": "ok",
+      "text": "7 pages intérieures, pagination calculée au rendu."
+    },
+    {
+      "code": "bleed",
+      "status": "ok",
+      "text": "Couverture : fond perdu 3 mm ; intérieur sans éléments à bord perdu."
+    },
+    {
+      "code": "print",
+      "status": "warning",
+      "text": "PDF RVB avec polices incorporées, non certifié PDF/X. Profil colorimétrique et dos à valider auprès de l’imprimeur."
+    },
+    {
+      "code": "parity",
+      "status": "warning",
+      "text": "Nombre de pages impair : l’imprimeur peut exiger une page blanche supplémentaire."
+    },
+    {
+      "code": "spine",
+      "status": "warning",
+      "text": "Dos inférieur à 5 mm : texte du dos omis pour rester lisible."
+    },
+    {
+      "code": "manual",
+      "status": "info",
+      "text": "Inspection visuelle nécessaire : tableaux, ordre de lecture, glyphes, chevauchements complexes et coupures sémantiques ne sont pas certifiés automatiquement."
+    }
+  ]
+}

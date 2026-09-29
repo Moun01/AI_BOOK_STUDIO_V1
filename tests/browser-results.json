@@ -1,0 +1,5 @@
+{
+  "browserChecks": "demo, analyze, prompts, missing provider, autosave, render, preview, pagination, download, settings, mobile viewport",
+  "javascriptErrors": [],
+  "overflow": false
+}

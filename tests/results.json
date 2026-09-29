@@ -1,0 +1,24 @@
+{
+  "passed": 19,
+  "checks": [
+    "Authentification par compte et cookie HTTP-only",
+    "Création du PDF de démonstration, validation et import",
+    "Extraction, langue, chapitres et prompts contextuels",
+    "Prompts réellement liés au contenu",
+    "PDF original, intérieur, couverture à plat avec TrimBox, PDF complet réels",
+    "EPUB texte valide comme archive",
+    "Aperçu rendu depuis le PDF exporté",
+    "Contrôle qualité et avertissement prépresse honnête",
+    "Import d’image, édition, couverture et recomposition",
+    "Image et texte édité présents dans le fichier final",
+    "Annuler et rétablir persistés côté serveur",
+    "Assistant local modifie réellement les prompts",
+    "Pas de génération simulée : absence de fournisseur signalée",
+    "Correction automatique réelle puis réexport",
+    "Secrets non renvoyés au frontend",
+    "Isolation des utilisateurs et protection des fichiers",
+    "Faux PDF refusé",
+    "Conflit d’édition détecté",
+    "Suppression du projet et de ses fichiers"
+  ]
+}
