@@ -20,14 +20,14 @@ function shell(content){const u=state.user;$('#app').innerHTML=`<aside class="si
   <div style="position:relative">
     <button
       class="iconbtn"
-      onclick="document.getElementById('auth-menu').style.display='block'"
+      onclick="document.getElementById('auth-menu').style.display='block'; return false;"
       title="Compte"
     >
       ${I('down')}
     </button>
 
     <div id="auth-menu"
-      style="display:none;position:absolute;right:0;bottom:42px;min-width:170px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:6px;z-index:9999;box-shadow:0 8px 25px rgba(0,0,0,.15)">
+      style="display:block !important;position:absolute;right:0;bottom:42px;min-width:170px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:6px;z-index:9999;box-shadow:0 8px 25px rgba(0,0,0,.15)">
 
       <button
         onclick="authModal('login');document.getElementById('auth-menu').style.display='none'"
