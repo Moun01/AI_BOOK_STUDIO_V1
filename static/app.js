@@ -9,33 +9,43 @@ function toast(text){$('#toast').textContent=text;$('#toast').classList.add('sho
 function modal(html){$('#modal-root').innerHTML=`<div class="modal-backdrop"><div class="modal" role="dialog" aria-modal="true"><button class="iconbtn close" onclick="closeModal()" aria-label="Fermer">${I('close')}</button>${html}</div></div>`}
 function closeModal(){$('#modal-root').innerHTML=''}
 const fileUrl=(p,name,download=false)=>`/api/projects/${p.id}/files/${name}?${download?'download=1&':''}v=${p.render_revision??p.revision??0}`;
-function shell(content){const u=state.user;$('#app').innerHTML=`<aside class="sidebar"><a class="brand" href="#" onclick="navigate('dashboard');return false"><div class="brandmark">${I('book')}</div><span>AI BOOK STUDIO</span></a><div class="workspace flex"><div class="wslogo">A</div><span style="flex:1">Mon espace créatif</span>${I('down')}</div><div class="navlabel">ESPACE DE TRAVAIL</div><nav><button class="navitem ${state.view==='dashboard'||state.view==='editor'?'active':''}" onclick="navigate('dashboard')">${I('grid')}<span>Mes livres</span><span class="count">${state.projects.length}</span></button><button class="navitem" onclick="newBook()">${I('plus')}<span>Nouveau livre</span></button><button class="navitem" onclick="demoModal()">${I('spark')}<span>Découvrir le studio</span></button></nav><div class="side-bottom"><button class="navitem ${state.view==='settings'?'active':''}" onclick="navigate('settings')">${I('settings')}<span>Paramètres IA</span></button><button class="navitem ${state.view==='help'?'active':''}" onclick="navigate('help')">${I('help')}<span>Aide & ressources</span></button><div class="localbox"><div class="flex between"><h4>Votre atelier, sans abonnement</h4></div><div style="height:1px;background:var(--line);margin:12px 0"></div><p>Import, mise en page et export.<br>Vos premiers livres commencent ici.</p><span class="pill green"><span class="dot"></span> Mode gratuit</span></div><div class="profile flex"><div class="avatar">${E((u?.name||'Mon espace').slice(0,2).toUpperCase())}</div><div class="profile-info" style="flex:1"><div class="name">${E(u?.name||'Bienvenue au studio')}</div><div class="muted">${u?.email?'Compte personnel':u?'Session découverte':'Espace personnel'}</div></div><div style="position:relative;">
-  <button
-    onclick="document.getElementById('auth-menu').style.display =
-      document.getElementById('auth-menu').style.display === 'block' ? 'none' : 'block'"
-    style="padding:8px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface);cursor:pointer;"
-  >
-    ${I('down')}
-  </button>
+function shell(content){const u=state.user;$('#app').innerHTML=`<aside class="sidebar"><a class="brand" href="#" onclick="navigate('dashboard');return false"><div class="brandmark">${I('book')}</div><span>AI BOOK STUDIO</span></a><div class="workspace flex"><div class="wslogo">A</div><span style="flex:1">Mon espace créatif</span>${I('down')}</div><div class="navlabel">ESPACE DE TRAVAIL</div><nav><button class="navitem ${state.view==='dashboard'||state.view==='editor'?'active':''}" onclick="navigate('dashboard')">${I('grid')}<span>Mes livres</span><span class="count">${state.projects.length}</span></button><button class="navitem" onclick="newBook()">${I('plus')}<span>Nouveau livre</span></button><button class="navitem" onclick="demoModal()">${I('spark')}<span>Découvrir le studio</span></button></nav><div class="side-bottom"><button class="navitem ${state.view==='settings'?'active':''}" onclick="navigate('settings')">${I('settings')}<span>Paramètres IA</span></button><button class="navitem ${state.view==='help'?'active':''}" onclick="navigate('help')">${I('help')}<span>Aide & ressources</span></button><div class="localbox"><div class="flex between"><h4>Votre atelier, sans abonnement</h4></div><div style="height:1px;background:var(--line);margin:12px 0"></div><p>Import, mise en page et export.<br>Vos premiers livres commencent ici.</p><span class="pill green"><span class="dot"></span> Mode gratuit</span></div><div class="profile flex">
+  <div class="avatar">${E((u?.name||'Mon espace').slice(0,2).toUpperCase())}</div>
 
-  <div id="auth-menu"
-       style="display:none;position:absolute;right:0;bottom:45px;min-width:160px;padding:6px;background:var(--surface);border:1px solid var(--line);border-radius:10px;box-shadow:0 8px 25px rgba(0,0,0,.15);z-index:9999;">
-
-    <button
-      onclick="authModal('login')"
-      style="display:block;width:100%;padding:10px;border:0;background:none;text-align:left;cursor:pointer;"
-    >
-      Se connecter
-    </button>
-
-    <button
-      onclick="logout()"
-      style="display:block;width:100%;padding:10px;border:0;background:none;text-align:left;cursor:pointer;"
-    >
-      Se déconnecter
-    </button>
-
+  <div class="profile-info" style="flex:1">
+    <div class="name">${E(u?.name||'Bienvenue au studio')}</div>
+    <div class="muted">${u?.email?'Compte personnel':u?'Session découverte':'Espace personnel'}</div>
   </div>
+
+  <div style="position:relative">
+    <button
+      class="iconbtn"
+      onclick="const m=document.getElementById('auth-menu');m.style.display=m.style.display==='block'?'none':'block'"
+      title="Compte"
+    >
+      ${I('down')}
+    </button>
+
+    <div id="auth-menu"
+      style="display:none;position:absolute;right:0;bottom:42px;min-width:170px;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:6px;z-index:9999;box-shadow:0 8px 25px rgba(0,0,0,.15)">
+
+      <button
+        onclick="authModal('login');document.getElementById('auth-menu').style.display='none'"
+        style="display:block;width:100%;padding:10px;border:0;background:none;text-align:left;cursor:pointer"
+      >
+        Se connecter
+      </button>
+
+      <button
+        onclick="logout();document.getElementById('auth-menu').style.display='none'"
+        style="display:block;width:100%;padding:10px;border:0;background:none;text-align:left;cursor:pointer"
+      >
+        Se déconnecter
+      </button>
+
+    </div>
+  </div>
+</div>
 </div>
 </button></div></div></aside><main class="main"><header class="topbar"><div class="breadcrumb"><button class="mobile-menu iconbtn" aria-label="Ouvrir le menu" onclick="$('.sidebar').classList.toggle('open')">${I('menu')}</button><span>Espace de travail</span>${I('chevron')}<b>${{dashboard:'Mes livres',editor:'Éditeur',settings:'Paramètres IA',help:'Aide & ressources'}[state.view]}</b></div><div class="flex right"><span class="flex gap top-label">${I('shield')} Vos fichiers restent privés</span><span class="vline"></span><span class="pill purple">ÉDITION LOCALE</span></div></header><div class="content">${content}</div></main>`;if(state.view==='editor'&&state.p?.book)assistantWidget()}
 async function navigate(view){try{if(dirty)await flush();state.view=view;state.assistant=false;clearTimeout(jobTimer);if(view==='dashboard'){if(state.user)state.projects=await api('/projects');renderDashboard()}else if(view==='settings'){if(!await ensureUser())return;await renderSettings()}else if(view==='help')renderHelp()}catch(e){toast(e.message)}}
